@@ -15,3 +15,5 @@ This project will be a portfolio website containing some work I have done and sh
 ### 9/15/24
 
 - 8:15 - Completed home page
+
+- 9:19 - Completed about page
