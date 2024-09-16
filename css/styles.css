@@ -219,6 +219,256 @@ ul .other-links a {
   margin-bottom: 95px;
 }
 
+.pro-header {
+  border-bottom: 2px solid #000;
+  position: absolute;
+  top: 100px;
+  left: 270px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.project-content {
+  width: 981px;
+  height: 513px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  position: relative;
+}
+.project-content .pic1 {
+  position: relative;
+  z-index: 1000px;
+  width: 489px;
+  height: 187px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-content .pic1 button {
+  width: 489px;
+  height: 187px;
+  background-image: url(../images/livingRoomhero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+.project-content .pic2 {
+  width: 187px;
+  height: 187px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 306px;
+  left: 509px;
+}
+.project-content .pic2 button {
+  width: 187px;
+  height: 187px;
+  background-image: url(../images/Music\ Creators\ Callout\ Ad.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+.project-content .pic3 {
+  width: 265px;
+  height: 187px;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 306px;
+  left: 716px;
+}
+.project-content .pic3 button {
+  width: 265px;
+  height: 187px;
+  background-image: url(../images/advertFinaldraft.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+.project-content .pic4 {
+  width: 603px;
+  height: 306px;
+  margin-right: 20px;
+  position: absolute;
+}
+.project-content .pic4 button {
+  width: 603px;
+  height: 306px;
+  background-image: url(../images/eyesDigitalpainting.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+.project-content .pic5 {
+  width: 355px;
+  height: 306px;
+  position: absolute;
+  left: 626px;
+}
+.project-content .pic5 button {
+  width: 355px;
+  height: 306px;
+  background-image: url(../images/redPandaCharacter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.pro1-hero {
+  background-image: url(../images/livingRoomhero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 979.5px;
+  height: 378.75px;
+  margin-top: 85.5px;
+  margin: 0 auto;
+}
+.pro1-hero .romanNum {
+  font-size: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #c4bfd9;
+  filter: drop-shadow(5px 5px 6px #000000);
+  position: absolute;
+  bottom: 110px;
+}
+.pro1-hero .title {
+  font-size: 140px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #c4bfd9;
+  filter: drop-shadow(5px 5px 6px #000);
+  position: absolute;
+  bottom: 150px;
+  right: 400px;
+}
+
+.sub-pro-content {
+  width: 980px;
+  height: 96px;
+  margin: 0 auto;
+  margin-top: 36.5px;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  margin-bottom: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sub-pro-content .pro-p-1 {
+  width: 490px;
+  margin-right: 40px;
+}
+.sub-pro-content .pro-p-2 {
+  width: 451px;
+}
+
+.pro2-hero {
+  background-image: url(../images/Music\ Creators\ Callout\ Ad.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 979.5px;
+  height: 378.75px;
+  margin-top: 85.5px;
+  margin: 0 auto;
+}
+.pro2-hero .romanNum2 {
+  font-size: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #f2ddd5;
+  filter: drop-shadow(5px 5px 6px #000000);
+  position: absolute;
+  bottom: 110px;
+}
+.pro2-hero .title2 {
+  font-size: 140px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #f2ddd5;
+  filter: drop-shadow(5px 5px 6px #000);
+  position: absolute;
+  bottom: 150px;
+  right: 550px;
+}
+
+.sub-pro-content {
+  width: 980px;
+  height: 96px;
+  margin: 0 auto;
+  margin-top: 36.5px;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  margin-bottom: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sub-pro-content .pro-p-1 {
+  width: 490px;
+  margin-right: 40px;
+}
+.sub-pro-content .pro-p-2 {
+  width: 451px;
+}
+
+.pro3-hero {
+  background-image: url(../images/advertFinaldraft.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 979.5px;
+  height: 378.75px;
+  margin-top: 85.5px;
+  margin: 0 auto;
+}
+.pro3-hero .romanNum3 {
+  font-size: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #67734d;
+  filter: drop-shadow(5px 5px 6px #000000);
+  position: absolute;
+  bottom: 110px;
+}
+.pro3-hero .title3 {
+  font-size: 140px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #67734d;
+  filter: drop-shadow(5px 5px 6px #000);
+  position: absolute;
+  bottom: 150px;
+  right: 580px;
+}
+
+.sub-pro-content {
+  width: 980px;
+  height: 96px;
+  margin: 0 auto;
+  margin-top: 36.5px;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  margin-bottom: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sub-pro-content .pro-p-1 {
+  width: 490px;
+  margin-right: 40px;
+}
+.sub-pro-content .pro-p-2 {
+  width: 451px;
+}
+
 footer {
   min-height: 455px;
   background-color: #7b8c56;
