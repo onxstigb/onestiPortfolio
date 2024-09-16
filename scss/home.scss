@@ -1,20 +1,73 @@
-.photo {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 100px;
-  margin-left: 600px;
-  width: 265px;
-  height: 265px;
-  background-color: $site-dark-green;
-  border-radius: 50%;
-  .headshot {
-    border-radius: 50%;
-    // background-color: palevioletred;
-    width: 250px;
-    height: 250px;
-  }
-}
+.home {
+  margin-top: -99px;
+  .hero {
+    height: 500px;
+    // background-color: bisque;
+    background-image: linear-gradient(
+        rgba(103, 115, 77, 0.5),
+        rgba(103, 115, 77, 0.5)
+      ),
+      url(../images/livingRoomhero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
 
-h1 {
+    .hero-text {
+      text-align: center;
+      color: whitesmoke;
+      padding-top: 200px;
+
+      h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: 40px;
+      }
+      #pink-text {
+        margin-bottom: 50px;
+        color: $site-pink;
+        font-style: italic;
+        font-size: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      button {
+        background-color: $site-pink;
+        height: 40.04px;
+        width: 121.62px;
+        color: white;
+        border: none;
+        margin-top: 50px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    }
+  }
+  .quote {
+    height: 300px;
+    width: 789px;
+    margin: 0 auto;
+    .lao-quote {
+      font-size: 15px;
+      font-style: italic;
+      font-weight: bold;
+      color: $site-light-green;
+      margin-top: 150px;
+    }
+    .name {
+      color: $site-dark-green;
+      @font-face {
+        font-family: "Font1";
+        src: url(../fonts/PTSerif-Regular.ttf) format("ttf");
+      }
+    }
+    .lao-title {
+      color: #a8a8a8;
+      font-size: 12px;
+      margin-top: -10px;
+    }
+  }
 }

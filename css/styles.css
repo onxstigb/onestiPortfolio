@@ -21,31 +21,280 @@ p {
 }
 
 nav {
-  height: 60px;
-  background-color: #67734d;
+  height: 65px;
+  width: 980px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  border-bottom: 2px solid #fff;
+  position: relative;
+  z-index: 99;
 }
-
-nav a {
+nav .logo {
+  width: 92px;
+  height: 42px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav .logo p {
+  font-size: 20px;
+  position: absolute;
+  top: 35px;
+}
+nav ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul a {
   text-decoration: none;
-  color: #f2ddd5;
+  color: #fff;
 }
-
-.photo {
+nav .links {
+  min-width: 300px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 100px;
-  margin-left: 600px;
-  width: 265px;
-  height: 265px;
-  background-color: #67734d;
-  border-radius: 50%;
+  position: absolute;
+  left: 685px;
 }
-.photo .headshot {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
+nav .links a {
+  margin-right: 5px;
+  padding-right: 10px;
+  border-right: 1px solid #f2ddd5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.other-nav {
+  height: 65px;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+  border-bottom: 2px solid #000;
+  margin-bottom: 86.5px;
+}
+
+.other-logo {
+  width: 92px;
+  height: 42px;
+  color: #000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid #000;
+}
+.other-logo p {
+  font-size: 20px;
+  position: absolute;
+  top: 35px;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul a {
+  text-decoration: none;
+  color: #000;
+}
+ul .other-links {
+  min-width: 300px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 685px;
+}
+ul .other-links a {
+  margin-right: 5px;
+  padding-right: 10px;
+  border-right: 1px solid #f2ddd5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000;
+}
+
+.home {
+  margin-top: -99px;
+}
+.home .hero {
+  height: 500px;
+  background-image: linear-gradient(rgba(103, 115, 77, 0.5), rgba(103, 115, 77, 0.5)), url(../images/livingRoomhero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.home .hero .hero-text {
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 200px;
+}
+.home .hero .hero-text h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 40px;
+}
+.home .hero .hero-text #pink-text {
+  margin-bottom: 50px;
+  color: #f2ddd5;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.home .hero .hero-text button {
+  background-color: #f2ddd5;
+  height: 40.04px;
+  width: 121.62px;
+  color: white;
+  border: none;
+  margin-top: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.home .quote {
+  height: 300px;
+  width: 789px;
+  margin: 0 auto;
+}
+.home .quote .lao-quote {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  color: #7b8c56;
+  margin-top: 150px;
+}
+.home .quote .name {
+  color: #67734d;
+}
+@font-face {
+  font-family: "Font1";
+  src: url(../fonts/PTSerif-Regular.ttf) format("ttf");
+}
+.home .quote .lao-title {
+  color: #a8a8a8;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+footer {
+  min-height: 455px;
+  background-color: #7b8c56;
+  position: relative;
+}
+footer .footContent {
+  position: absolute;
+  left: 700px;
+  top: 36px;
+}
+footer .footContent .foot-logo {
+  width: 92px;
+  height: 42px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+footer .footContent .foot-logo p {
+  font-size: 20px;
+  position: absolute;
+  top: 25px;
+}
+footer .footContent .address {
+  margin-top: 46px;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  left: -70px;
+}
+footer .footContent .phoneNum {
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 110px;
+}
+footer .footContent .gMail {
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 130px;
+  left: -10px;
+}
+footer .footContent .fakeInput {
+  height: 60px;
+  width: 696px;
+  position: relative;
+  left: -300px;
+  top: 150px;
+}
+footer .footContent .fakeInput .pinkArea {
+  width: 529px;
+  background-color: #f2efdf;
+  height: 60px;
+}
+footer .footContent .fakeInput .pinkArea .placeHold {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-left: 23px;
+}
+footer .footContent .fakeInput .whiteArea {
+  width: 167px;
+  background-color: #f2ddd5;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  left: 529px;
+}
+footer .footContent .fakeInput .whiteArea .fakeBtn {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #67734d;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 21px;
+  padding-left: 39px;
+}
+footer .footContent .social-medias {
+  display: flex;
+  position: absolute;
+  top: 300px;
+  left: -20px;
+}
+footer .footContent .social-medias .linkedin {
+  height: 31px;
+  width: 31px;
+  margin-right: 30.5px;
+}
+footer .footContent .social-medias .insta {
+  height: 31.22px;
+  width: 31.22px;
+  margin-right: 30.5px;
+}
+footer .footContent .social-medias .twitter {
+  height: 31.22px;
+  width: 31.22px;
+}
+footer .footContent .copyright {
+  position: absolute;
+  left: -50px;
+  top: 380px;
+}
+footer .footContent .copyright p {
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
 }

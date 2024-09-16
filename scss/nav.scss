@@ -1,12 +1,119 @@
 nav {
-  height: 60px;
-  background-color: $site-dark-green;
+  height: 65px;
+  width: $content-width;
+  margin: 0 auto;
+  // background-color: #000;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  border-bottom: 2px solid $site-white;
+  position: relative;
+  z-index: 99;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    // background-color: red;
+    border: 2px solid $site-white;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+
+    p {
+      font-size: 20px;
+      position: absolute;
+      top: 35px;
+    }
+  }
+  ul {
+    list-style: none;
+    // text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+
+  .links {
+    min-width: 300px;
+    height: 42px;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 685px;
+
+    a {
+      margin-right: 5px;
+      padding-right: 10px;
+      border-right: 1px solid $site-pink;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  }
 }
 
-nav a {
-  text-decoration: none;
-  color: $site-pink;
+.other-nav {
+  height: 65px;
+  width: $content-width;
+  margin: 0 auto;
+  // background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+  border-bottom: 2px solid #000;
+  margin-bottom: 86.5px;
+}
+.other-logo {
+  width: 92px;
+  height: 42px;
+  // background-color: red;
+  color: #000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid #000;
+  p {
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+  }
+}
+ul {
+  list-style: none;
+  // text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .other-links {
+    min-width: 300px;
+    height: 42px;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 685px;
+
+    a {
+      margin-right: 5px;
+      padding-right: 10px;
+      border-right: 1px solid $site-pink;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: #000;
+    }
+  }
 }

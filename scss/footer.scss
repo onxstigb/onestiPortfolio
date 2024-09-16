@@ -1,0 +1,121 @@
+footer {
+  min-height: 455px;
+  background-color: $site-light-green;
+  position: relative;
+  .footContent {
+    position: absolute;
+    left: 700px;
+    top: 36px;
+    .foot-logo {
+      width: 92px;
+      height: 42px;
+      // background-color: red;
+      border: 2px solid $site-white;
+      color: #fff;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      p {
+        font-size: 20px;
+        position: absolute;
+        top: 25px;
+      }
+    }
+    .address {
+      margin-top: 46px;
+      color: #fff;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      position: absolute;
+      left: -70px;
+    }
+    .phoneNum {
+      color: #fff;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      position: absolute;
+      //   left: 5px;
+      top: 110px;
+    }
+    .gMail {
+      color: #fff;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      position: absolute;
+      top: 130px;
+      left: -10px;
+    }
+    .fakeInput {
+      height: 60px;
+      width: 696px;
+      position: relative;
+      left: -300px;
+      top: 150px;
+
+      .pinkArea {
+        width: 529px;
+        background-color: $site-cream;
+        height: 60px;
+        .placeHold {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          color: #000;
+          font-size: 16px;
+          align-items: center;
+          justify-content: space-evenly;
+          padding-top: 20px;
+          padding-left: 23px;
+        }
+      }
+      .whiteArea {
+        width: 167px;
+        background-color: $site-pink;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+        left: 529px;
+        .fakeBtn {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          color: $site-dark-green;
+          font-size: 16px;
+          align-items: center;
+          justify-content: space-evenly;
+          padding-top: 21px;
+          padding-left: 39px;
+        }
+      }
+    }
+    .social-medias {
+      display: flex;
+      position: absolute;
+      top: 300px;
+      left: -20px;
+
+      .linkedin {
+        height: 31px;
+        width: 31px;
+        margin-right: 30.5px;
+      }
+      .insta {
+        height: 31.22px;
+        width: 31.22px;
+        margin-right: 30.5px;
+      }
+      .twitter {
+        height: 31.22px;
+        width: 31.22px;
+      }
+    }
+    .copyright {
+      position: absolute;
+      left: -50px;
+      top: 380px;
+      p {
+        color: #fff;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 12px;
+      }
+    }
+  }
+}
